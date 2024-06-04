@@ -25,16 +25,12 @@ import cpulsicon from "../../assets/icons/c++icon.png"
 import pythonicon from "../../assets/icons/pythonicon.png"
 import rubyicon from "../../assets/icons/rubyicon.png"
 import readmiscreenshot from "../../assets/img/charlton/readmi_screenshot.png"
-import expressicon2 from "../../assets/icons/expressicon.png"
-import jsonicon from "../../assets/icons/jsonicon.png"
 import weatherapp from "../../assets/img/charlton/weather_screenshot.png"
 import medalicon from "../../assets/icons/medalicon.png"
 import aboutmeicon from "../../assets/icons/aboutmeicon.png"
 import hobbiesicon from "../../assets/icons/hobbiesicon.png"
 import blogsicon from "../../assets/icons/blogsicon.png"
 import charltonicon2 from "../../assets/img/headshot.jpg"
-import jqueryicon from "../../assets/icons/jqueryicon.png"
-import mysqlicon from "../../assets/icons/mysql.png"
 import empployeeicon from "../../assets/icons/employeetracker.png"
 
 
@@ -44,10 +40,10 @@ export const headerIntroData = {
     de: "Hi, ich Charlton",
     en: "Full-Stack Web Developer",
   },
-  subtitle: "A passionate front-end Web Developer based in Adelaide, Australia.📍",
+  subtitle: "",
   description: {
-    de: "",
-    en: "",
+    de: "Ein leidenschaftlicher Front-End-Webentwickler mit Sitz in Adelaide, Australien.📍",
+    en: "A passionate front-end Web Developer based in Adelaide, Australia.📍",
   },
   buttons: [
     {
@@ -76,7 +72,7 @@ export const projectsData = [
   {
     title: "ReadMi 📚",
     description:
-      "Ein Repository, in dem Benutzer ihre eigene Discord-Präsenz haben können",
+      "ReadMi ist eine Full-Stack-Webanwendung, die die Suche und Verwaltung von Büchern vereinfacht. Suchen Sie auf dieser benutzerfreundlichen Plattform nach Büchern, erstellen Sie Wunschlisten, treten Sie mit der Lese-Community in Kontakt und vieles mehr.",
     description_EN:
       "ReadMi is a full-stack web application that simplifies book discovery and management. Search for books, create wishlists, engage with the reading community, and more in this user-friendly platform.",
     technologies: [
@@ -85,7 +81,6 @@ export const projectsData = [
       { name: "JavaScript", icon: javascripticon },
       { name: "Axios", icon: axiosicon },
       { name: "Node.js", icon: nodejsicon },
-      { name: "Express", icon: expressicon2 },
       { name: "MongoDB", icon: mongodbicon },
     ],
     image: readmiscreenshot,
@@ -104,18 +99,16 @@ export const projectsData = [
   {
     title: "Recipe Radar",
     description:
-      "Ein Allzweck-NodeJS-Discord-Bot, der mit MongoDB und der Discord-API mit einem Boostrap-Dashboard erstellt wurde",
+      "Recipe Radar ist eine Webanwendung, die Benutzern hilft, Rezepte basierend auf den vorhandenen Zutaten zu finden. Es bietet außerdem Nährwertinformationen und ermöglicht Benutzern das Speichern ihrer Lieblingsrezepte für einen späteren einfachen Zugriff.",
     description_EN:
       "Recipe Radar is a web application that helps users find recipes based on the ingredients they have. It also provides nutritional information and allows users to save their favorite recipes for easy access in the future.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Boostrap", icon: boostrapicon },
-      { name: "Express", icon: expressicon2 },
       { name: "Node.js", icon: nodejsicon },
       { name: "React", icon: reacticon },
-      { name: "JSON", icon: jsonicon }
+
     ],
     image: reciperadar,
     deploymenturl: "https://jujusoi.github.io/Project-1/index.html",
@@ -132,14 +125,13 @@ export const projectsData = [
   {
     title: "Weather App 🌦️",
     description:
-      "Die vorherige Version meines Portfolios wurde ausschließlich in HTML, CSS und Javascript erstellt",
+      "Das Weather Project ist eine einfache Webanwendung, die Wetterinformationen für einen bestimmten Standort bereitstellt. Dieses Projekt nutzt eine Kombination von Technologien, um Wetterdaten auf benutzerfreundliche Weise abzurufen, zu verarbeiten und den Benutzern anzuzeigen.",
     description_EN:
       "The Weather Project is a simple web application that provides weather information for a given location. This project utilizes a combination of technologies to fetch, process, and display weather data to users in a user-friendly manner.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "JQuery", icon: jqueryicon },
     ],
     image: weatherapp,
     deploymenturl: "https://charltonortega.github.io/6weatherdashboard/",
@@ -156,14 +148,13 @@ export const projectsData = [
   {
     title: "Employee Tracker 👔",
     description:
-      "Die vorherige Version meines Portfolios wurde ausschließlich in HTML, CSS und Javascript erstellt",
+      "Verwalten Sie Mitarbeiterinformationen, Abteilungen und Rollen in einer MySQL-Datenbank über eine Befehlszeilen-App.",
     description_EN:
       "Manage employee info, departments, and roles in a MySQL database via a command-line app.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "MySQL", icon: mysqlicon },
     ],
     image: empployeeicon,
     deploymenturl: "https://charltonortega.github.io/6weatherdashboard/",
